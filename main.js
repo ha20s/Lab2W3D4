@@ -27,8 +27,8 @@ function randomStyle() {
     cube.style.backgroundColor= colors[Math.floor(Math.random() * colors.length)]
     cube.style.height = heights[Math.floor(Math.random() * heights.length)]
     cube.style.width =  widths[Math.floor(Math.random() * widths.length)]
-    cube.style.display = "flex"
-    cube.style.alignItems = positions[Math.floor(Math.random() * positions.length)] // check it 
+    // cube.style.display = "flex"
+    cube.style.float = positions[Math.floor(Math.random() * positions.length)] // check it 
     }
 
     setInterval(randomStyle, 1000);
